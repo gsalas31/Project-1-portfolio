@@ -3,14 +3,24 @@
     width:290px;
     height: 170px;
     background-repeat: no-repeat;
+    align-self: center;
+    padding-bottom:20px;
+    margin:0;
+
 }
 .menu{
     display:flex;
     flex-direction: row;
     align-items: center;
-
 }
 nav{
     display:flex;
     justify-content: space-between;
+}
+.lista{
+    padding-right: 30px;
+    font-size: 16px;
+}
+#mover{
+    margin-right: 10px;
 }
