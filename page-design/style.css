@@ -1,0 +1,17 @@
+.imga{
+    background-image: url(https://res.cloudinary.com/g31ssa/image/upload/c_scale,h_240,w_180/v1594675190/LOGOG_r5tr3u.png);
+    width:290px;
+    height: 220px;
+    background-repeat: no-repeat;
+
+}
+ul{
+    list-style-type: none;   
+    display: flex;
+}
+.lista{
+    padding-left: 20px;
+}
+nav{
+    display:flex;
+}
