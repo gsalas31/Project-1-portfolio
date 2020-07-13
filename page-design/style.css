@@ -1,3 +1,8 @@
+body{
+    margin-left:0;
+    margin-right: 0;
+    margin-top: 0;
+}
 .imga{
     background-image: url(https://res.cloudinary.com/g31ssa/image/upload/c_scale,h_240,w_180/v1594675190/LOGOG_r5tr3u.png);
     width:290px;
@@ -12,6 +17,8 @@
     display:flex;
     flex-direction: row;
     align-items: center;
+    color: rgb(122,121,183);
+    font-weight: bolder;
 }
 nav{
     display:flex;
@@ -23,4 +30,18 @@ nav{
 }
 #mover{
     margin-right: 10px;
+}
+#imgen{
+    background-image: url(https://res.cloudinary.com/g31ssa/image/upload/c_scale,h_200,w_200/v1594680808/woman-profile-icon-64_xwkmgc.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    float:right;
+    margin-right: 40px ;
+    margin-top: 25px;
+}
+.contenedorimg{
+    height: 250px;
+    background-color:rgb(235,232,231);
+    border-bottom-right-radius: 60px;
 }
