@@ -200,3 +200,32 @@ footer{
     background-color:#ffc94b ;
     border-top:rgb(235,232,231) solid 2px ;
 }
+@media (max-width:1040px){
+
+    #uno{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        height: 460px;
+        border-bottom-right-radius: 0px;
+    }
+   .short{
+       display:flex;
+       align-self: center;
+       width: 100px;
+       height: 100px;
+   }
+   .aboutme{
+       margin: 0 auto;
+       height: 100px;
+   }
+   #imgen{
+       margin-top: 10px;
+       margin-bottom: 10px;
+   }
+   h1{
+       margin-top: 30px;
+   }
+
+    
+}
