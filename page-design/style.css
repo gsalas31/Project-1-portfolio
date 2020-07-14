@@ -178,10 +178,12 @@ h3{
  #email{
      margin-left: 20px;
      margin-right: 10px;
+     margin-top: 6px;
  }
  #name{
      margin-right: 10px;
      margin-left: 0px;
+     margin-top: 6px;
  }
  #textmessage{
      margin-left: 30px;
@@ -193,6 +195,7 @@ input{
     border:#7477b9 solid 1px;
     border-radius: 8px;
     background-color:rgb(235,232,231);
+    height: 50%;
 }
 footer{
     display: flex;
@@ -220,8 +223,8 @@ footer{
        height: 100px;
    }
    #imgen{
-       margin-top: 10px;
-       margin-bottom: 10px;
+       margin-top: 20px;
+       margin-bottom: 20px;
    }
    h1{
        margin-top: 30px;
