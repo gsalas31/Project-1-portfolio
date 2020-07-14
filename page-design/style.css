@@ -2,6 +2,7 @@ body{
     margin-left:0;
     margin-right: 0;
     margin-top: 0;
+    background-color:rgb(235,232,231);
 }
 .imga{
     background-image: url(https://res.cloudinary.com/g31ssa/image/upload/c_scale,h_240,w_180/v1594675190/LOGOG_r5tr3u.png);
@@ -17,7 +18,7 @@ body{
     display:flex;
     flex-direction: row;
     align-items: center;
-    color: rgb(122,121,183);
+    color: #f17a7e;
     font-weight: bolder;
 }
 nav{
@@ -36,12 +37,25 @@ nav{
     background-repeat: no-repeat;
     width: 200px;
     height: 200px;
-    float:right;
-    margin-right: 40px ;
-    margin-top: 25px;
+    margin-right: 40px;
 }
-.contenedorimg{
+content{
+    display:flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color:#ffc94b;
     height: 250px;
-    background-color:rgb(235,232,231);
     border-bottom-right-radius: 60px;
+}
+.aboutme{
+   margin:0 auto;
+   margin-top: 240px;
+   border: solid black 2px;
+   width:100px;
+   height: 100px;
+
+}
+p{
+   text-align: center;
+   margin-top: 25px;
 }
