@@ -208,6 +208,8 @@ footer{
     background-color:#ffc94b ;
     border-top:rgb(235,232,231) solid 2px ;
 }
+
+/*Media Queries */
 @media (max-width:1040px){
 
     #uno{
@@ -243,6 +245,13 @@ footer{
 @media (max-width:930px){
     #uno{
         border-bottom-right-radius: 0px;
+        width:100%;   
+    }
+    .aboutme{
+        width:70%;
+    }
+    h1{
+        font-size: 20px;
     }
     #tres{
         border-top-left-radius: 0px;
@@ -255,21 +264,60 @@ footer{
     .formbox{
         align-self: center;
         margin-top: 40px;
-
+        width:60%;
+        height: 360px;
+    }
+    #name{
+        margin-left: 30px;
+    }
+    #email{
+        margin-top: 20px;
+    }
+    textarea{
+        width: 60%;
+    }
+    #partone{
+        display:flex;
+        flex-direction: column;
+    }
+    input{
+        width:60%;
+        margin-left: 30px;
     }
     .formrigth{
         align-self: center;
-        margin-top: 65px;
+        margin-top: 30px;
+        width:60%;
     }
     .back{
         height: 600px;
     }
+    p{
+        width:60%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
 }
-@media (max-width: 670px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media (max-width: 670px){
     .aboutme{
-        width:400px;
         font-size: 14px;
         height: 150px;
+        max-width: 670px;
+        min-width: 414px;
     }
     li{
         margin-top: 15px;
@@ -277,6 +325,15 @@ footer{
         margin-right: 50px;
     }
 }
-@media (max-width: 500px){
 
-}
+
+
+
+@media (max-width: 500px){
+    .aboutme{
+        width:500px;
+
+    }
+
+
+}*/
