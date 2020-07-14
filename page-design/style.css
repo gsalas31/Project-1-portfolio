@@ -10,7 +10,6 @@ body{
     align-self: center;
     padding-bottom:20px;
     margin:0;
-
 }
 .menu{
     display:flex;
@@ -143,8 +142,20 @@ h3{
     border: rgb(235,232,231) solid 4px;
     margin-left: 1px;
     border-radius: 8px;
-    background-color: #bd9dea;   
+    background-color: #bd9dea; 
+    flex-direction: column;  
 }
+.titulo{
+    text-align: center;
+    color:rgb(235,232,231);
+}
+.material-icons{ 
+    color:rgb(235,232,231);
+
+}
+
+
+
 
 
 
