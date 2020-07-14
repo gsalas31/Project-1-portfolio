@@ -104,7 +104,7 @@ h2{
     border: solid 5px rgb(235,232,231) ;
     border-radius: 8px;   
 }
-
+/* Editing contact form holder */
 .back{
     background-color:rgb(235,232,231) ;
     height: 300px;
@@ -145,6 +145,9 @@ h3{
     background-color: #bd9dea; 
     flex-direction: column;  
 }
+
+/*Editing contact form rigth side*/
+
 .titulo{
     text-align: center;
     color:#ffc94b;
@@ -161,15 +164,36 @@ h3{
     color:#ffc94b;
     margin-right: 20px;
 }
-
-
-
-
-
-
-
-
-
+ /*Editing contact form left side*/
+ .formbox{
+     display: flex;
+     flex-direction: column;
+     color:#e2b241;
+ }
+ #partone{
+     display:flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+ #email{
+     margin-left: 20px;
+     margin-right: 10px;
+ }
+ #name{
+     margin-right: 10px;
+     margin-left: 0px;
+ }
+ #textmessage{
+     margin-left: 30px;
+ }
+ h4{
+     margin-left: 30px;
+}
+input{
+    border:#7477b9 solid 1px;
+    border-radius: 8px;
+    background-color:rgb(235,232,231);
+}
 footer{
     display: flex;
     height: 40px;
