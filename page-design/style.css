@@ -107,7 +107,7 @@ h2{
 
 .back{
     background-color:rgb(235,232,231) ;
-    height: 400px;
+    height: 300px;
 }
 h3{ 
     color:#7477b9;
@@ -128,7 +128,7 @@ h3{
 }
 .formbox{
     display: flex;
-    height: 360px;
+    height: 260px;
     width: 500px;
     border: #bd9dea solid  4px;
     border-radius: 8px;
@@ -137,7 +137,7 @@ h3{
 }
 .formrigth{
     display: flex;
-    height: 360px;
+    height: 260px;
     width:300px;
     border: rgb(235,232,231) solid 4px;
     margin-left: 1px;
@@ -147,11 +147,19 @@ h3{
 }
 .titulo{
     text-align: center;
+    color:#ffc94b;
+    margin-top: 20px;
+}
+.info{
     color:rgb(235,232,231);
+    margin-left: 20px;
+}
+.icon{
+    margin-bottom: 20px;
 }
 .material-icons{ 
-    color:rgb(235,232,231);
-
+    color:#ffc94b;
+    margin-right: 20px;
 }
 
 
