@@ -242,7 +242,89 @@ footer{
        margin-left: 30px;
    }
 }
-@media (max-width:930px){
+
+
+@media (max-width:760px){
+    #uno{
+        border-bottom-right-radius: 0px;
+        width:100%;   
+    }
+    .aboutme{
+        width:70%;
+    }
+    h1{
+        font-size: 20px;
+        margin-bottom: 0px;
+        margin: 0px;
+    }
+    #tres{
+        border-top-left-radius: 0px;
+    }
+    .table{
+        display:flex;
+        flex-direction:column;
+        margin-top: 20px;
+    }
+    .formbox{
+        align-self: center;
+        margin-top: 40px;
+        width:60%;
+        height: 360px;
+    }
+    #name{
+        margin-left: 30px;
+    }
+    #email{
+        margin-top: 20px;
+    }
+    textarea{
+        width: 60%;
+    }
+    #partone{
+        display:flex;
+        flex-direction: column;
+    }
+    input{
+        width:60%;
+        margin-left: 30px;
+    }
+    .formrigth{
+        align-self: center;
+        margin-top: 30px;
+        width:70%;
+        height: 80%;
+    }
+    .back{
+        height: 600px;
+    }
+    .formbox{
+
+    }
+    .formrigth{
+        
+    }
+    p{
+        width:60%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    h3{
+        text-align: center;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    #titulo{
+        text-align:center;
+        font-size:14px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    li{
+        margin-top: 0px;   
+    }
+}
+
+@media (max-width:380px){
     #uno{
         border-bottom-right-radius: 0px;
         width:100%;   
@@ -287,7 +369,8 @@ footer{
     .formrigth{
         align-self: center;
         margin-top: 30px;
-        width:60%;
+        width:70%;
+        height: 80%;
     }
     .back{
         height: 600px;
@@ -297,43 +380,15 @@ footer{
         margin: 0 auto;
         margin-top: 100px;
     }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*@media (max-width: 670px){
-    .aboutme{
-        font-size: 14px;
-        height: 150px;
-        max-width: 670px;
-        min-width: 414px;
+    h3{
+        text-align: center;
+        margin-left:auto;
+        margin-right: auto;
     }
-    li{
-        margin-top: 15px;
-        font-size: 16px;
-        margin-right: 50px;
+    #titulo{
+        text-align:center;
+        font-size:14px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
-
-
-
-
-@media (max-width: 500px){
-    .aboutme{
-        width:500px;
-
-    }
-
-
-}*/
