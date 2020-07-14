@@ -78,3 +78,29 @@ p{
     margin-left: 200px;
     margin-right: 200px;
 }
+#tres{
+    display:flex;
+    flex-direction: column;
+    height: 580px;
+    border-top-left-radius: 60px ;
+    background-color: #ea7186;
+    margin-top: 100px;
+    text-align: center;
+}
+.proyectos{
+    display:flex;
+    
+}
+h2{
+    margin-top: 40px;
+}
+.links{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width:360px;
+    height: 360px;
+    border: solid 5px rgb(235,232,231) ;
+    border-radius: 8px;   
+}
