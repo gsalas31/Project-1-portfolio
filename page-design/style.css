@@ -18,7 +18,7 @@ body{
     display:flex;
     flex-direction: row;
     align-items: center;
-    color: #f17a7e;
+    color: black;
     font-weight: bolder;
 }
 nav{
@@ -39,7 +39,7 @@ nav{
     height: 200px;
     margin-right: 40px;
 }
-content{
+#uno{
     display:flex;
     align-items: center;
     flex-direction: row-reverse;
@@ -48,14 +48,33 @@ content{
     border-bottom-right-radius: 60px;
 }
 .aboutme{
-   margin:0 auto;
-   margin-top: 240px;
-   border: solid black 2px;
-   width:100px;
-   height: 100px;
-
+   background-color: #bd9dea;
+   width:600px;
+   height: 200px;
+   margin: 0 auto;
+   margin-top: 250px;
+   border-radius: 20px;
+   border: rgb(235,232,231) solid 6px;
+}
+h1{
+   text-align: center;
+   margin-top: 50px;
+   color: black;
+}
+ul{
+    list-style-type: none;
+    color: black;
+    display: flex;
+    flex-wrap: row;
+    justify-content: center;
+}
+li{
+    margin-right: 70px;
+    margin-top: 30px;
+    font-size: 20px;
 }
 p{
-   text-align: center;
-   margin-top: 25px;
+    margin-top: 180px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
