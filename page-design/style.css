@@ -1,7 +1,5 @@
 body{
-    margin-left:0;
-    margin-right: 0;
-    margin-top: 0;
+    margin:0;
     background-color:rgb(235,232,231);
 }
 .imga{
@@ -28,6 +26,7 @@ nav{
 .lista{
     padding-right: 30px;
     font-size: 16px;
+    color: #e2b241;
 }
 #mover{
     margin-right: 10px;
@@ -44,7 +43,7 @@ nav{
     align-items: center;
     flex-direction: row-reverse;
     background-color:#ffc94b;
-    height: 250px;
+    height: 280px;
     border-bottom-right-radius: 60px;
 }
 .aboutme{
@@ -58,12 +57,12 @@ nav{
 }
 h1{
    text-align: center;
-   margin-top: 50px;
-   color: black;
+   margin-top: 55px;
+   color: rgb(235,232,231);
 }
 ul{
     list-style-type: none;
-    color: black;
+    color: rgb(235,232,231);
     display: flex;
     flex-wrap: row;
     justify-content: center;
@@ -81,7 +80,7 @@ p{
 #tres{
     display:flex;
     flex-direction: column;
-    height: 580px;
+    height: 480px;
     border-top-left-radius: 60px ;
     background-color: #ea7186;
     margin-top: 100px;
@@ -93,14 +92,42 @@ p{
 }
 h2{
     margin-top: 40px;
+    color:rgb(235,232,231);
+    font-weight: bolder;
 }
 .links{
     display: flex;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
     width:360px;
-    height: 360px;
+    height: 260px;
     border: solid 5px rgb(235,232,231) ;
     border-radius: 8px;   
+}
+.for{
+    margin-top: 20px;
+}
+.back{
+    display:flex;
+    background-color:rgb(235,232,231) ;
+    height: 400px;
+}
+.backsecond{
+    display:flex;
+    height: 180px;
+    background-color: #7477b9;
+}
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    height: 40px;
+    background-color:#e2b241 ;
+    border-top:rgb(235,232,231) solid 2px ;
 }
