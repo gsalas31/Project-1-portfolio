@@ -255,7 +255,8 @@ footer{
     h1{
         font-size: 20px;
         margin-bottom: 0px;
-        margin: 0px;
+        margin-top: 20px;
+
     }
     #tres{
         border-top-left-radius: 0px;
@@ -314,11 +315,11 @@ footer{
         margin-right: auto;
     }
     li{
-        margin-top: 0px;   
+        text-align: center;
+        margin-top: 0px; 
+        margin-right: 25px;
     }
 }
-
-
 
 @media (max-width:420px){
     h1{
@@ -338,12 +339,7 @@ footer{
     .lista{
         font-size: 4px;
     }
-
 }
-
-
-
-
 
 @media (max-width:380px){
     #uno{
