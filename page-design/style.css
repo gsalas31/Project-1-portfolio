@@ -20,7 +20,7 @@ body{
 }
 nav{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-between;  
 }
 .lista{
     padding-right: 30px;
@@ -188,7 +188,7 @@ h3{
  textarea{
      background-color:rgb(235,232,231) ;
      margin-left: 30px;
-     width: 440px;
+     width: 340px;
      height: 60px;
      border-radius: 6px;
      border-color:#7477b9 ;
@@ -202,6 +202,23 @@ input{
     background-color:rgb(235,232,231);
     height: 50%;
 }
+#send{
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-right: 0px ;
+}
+.social{
+    text-align: center;
+    margin-top: 30px;
+
+}
+#git{
+    margin-right: 30px;
+}
+#linke{
+    margin-right: 30px;
+}
+
 footer{
     display: flex;
     height: 40px;
@@ -319,6 +336,9 @@ footer{
         margin-top: 0px; 
         margin-right: 25px;
     }
+    .social{
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width:420px){
@@ -430,5 +450,8 @@ footer{
     }
     #imgen{
         margin-right: 0px;
+    }
+    #send{
+        padding-left: 0px;
     }
 }
