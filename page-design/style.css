@@ -47,7 +47,18 @@ nav{
     background-color:#ffc94b;
     height: 280px;
     border-bottom-right-radius: 60px;
+    animation-name: amarillo;
+    animation-duration: 20s;
+    animation-delay: 3s;
 }
+/*Background Animation*/
+@keyframes amarillo{
+    0%{ background-color: #ffc94b  ;}
+    25%{ background-color: #ea7186 ;}
+    50%{ background-color: #7477b9 ;}
+    100%{background-color: lightseagreen;}
+}
+
 .aboutme{
    background-color: #bd9dea;
    width:600px;
@@ -88,7 +99,7 @@ p{
     margin-top: 100px;
     text-align: center;
     animation-name: backkkk;
-    animation-duration: 15s;
+    animation-duration: 20s;
     animation-delay: 3s;
 }
 /*Background Animation*/
@@ -284,7 +295,7 @@ footer{
 
 @media (max-width:800px){
     #uno{
-        border-bottom-right-radius: 0px;
+        border-bottom-right-radius: 60px;
         width:100%;   
     }
     .aboutme{
@@ -297,7 +308,7 @@ footer{
 
     }
     #tres{
-        border-top-left-radius: 0px;
+        border-top-left-radius: 60px;
     }
     .table{
         display:flex;
@@ -380,6 +391,7 @@ footer{
     .lista{
         font-size: 4px;
     }
+    
 }
 
 @media (max-width:380px){
