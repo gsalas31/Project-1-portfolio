@@ -244,7 +244,7 @@ footer{
 }
 
 
-@media (max-width:760px){
+@media (max-width:770px){
     #uno{
         border-bottom-right-radius: 0px;
         width:100%;   
@@ -291,17 +291,11 @@ footer{
     .formrigth{
         align-self: center;
         margin-top: 30px;
-        width:70%;
+        width:60%;
         height: 80%;
     }
     .back{
         height: 600px;
-    }
-    .formbox{
-
-    }
-    .formrigth{
-        
     }
     p{
         width:60%;
@@ -324,6 +318,33 @@ footer{
     }
 }
 
+
+
+@media (max-width:420px){
+    h1{
+        margin-top: 20px;
+    }
+    li{
+        margin-right: 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+    #email{
+        margin-left: 30px;
+    }
+    #imgen{
+        margin-right: 0px;
+    }
+    .lista{
+        font-size: 4px;
+    }
+
+}
+
+
+
+
+
 @media (max-width:380px){
     #uno{
         border-bottom-right-radius: 0px;
@@ -333,6 +354,7 @@ footer{
         width:70%;
     }
     h1{
+        margin-top: 20px;
         font-size: 20px;
     }
     #tres{
@@ -354,6 +376,7 @@ footer{
     }
     #email{
         margin-top: 20px;
+        margin-left:30px
     }
     textarea{
         width: 60%;
@@ -390,5 +413,26 @@ footer{
         font-size:14px;
         margin-left: auto;
         margin-right: auto;
+    }
+    li {
+        font-size: 14px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    ul{
+        padding:0px;
+    }
+    .info{
+        font-size: 14px;
+    }
+    .material-icons{
+        margin-right: 10px;
+    }
+/* just for the sake of being able to see the logo, will adjust nav font sixe*/
+    .lista{
+        font-size: 4px;
+    }
+    #imgen{
+        margin-right: 0px;
     }
 }
