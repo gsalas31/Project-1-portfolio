@@ -2,6 +2,9 @@ body{
     margin:0;
     background-color:rgb(235,232,231);
 }
+a:link, a:hover {
+    text-decoration:none;
+}
 .imga{
     background-image: url(https://res.cloudinary.com/g31ssa/image/upload/c_scale,h_240,w_180/v1594675190/LOGOG_r5tr3u.png);
     width:290px;
@@ -84,7 +87,18 @@ p{
     background-color: #ea7186;
     margin-top: 100px;
     text-align: center;
+    animation-name: backkkk;
+    animation-duration: 15s;
+    animation-delay: 3s;
 }
+/*Background Animation*/
+@keyframes backkkk{
+    0%{ background-color: #ea7186 ;}
+    25%{ background-color: #ffc94b ;}
+    50%{ background-color: #7477b9 ;}
+    100%{background-color: lightseagreen;}
+}
+
 .proyectos{
     display:flex;
     
@@ -210,7 +224,6 @@ input{
 .social{
     text-align: center;
     margin-top: 30px;
-
 }
 #git{
     margin-right: 30px;
@@ -218,12 +231,20 @@ input{
 #linke{
     margin-right: 30px;
 }
-
 footer{
     display: flex;
     height: 40px;
     background-color:#ffc94b ;
     border-top:rgb(235,232,231) solid 2px ;
+}
+#linke:hover{
+    opacity:0.7;
+}
+#git:hover{
+    opacity:0.7;
+}
+#word:hover{
+    opacity:0.7;
 }
 
 /*Media Queries */
