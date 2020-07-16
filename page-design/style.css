@@ -21,7 +21,9 @@ nav{
     margin-left: 0;
     height: 160px;
 }
-
+.toggler{
+    visibility: hidden;
+}
 
 #imgen{
     background-image: url(https://res.cloudinary.com/g31ssa/image/upload/c_scale,h_200,w_200/v1594680808/woman-profile-icon-64_xwkmgc.png);
@@ -69,9 +71,7 @@ h1{
    margin-top: 55px;
    color: rgb(235,232,231);
 }
-.toggler{
-  visibility: hidden;
-}
+
 menu{
     display:flex;
 }
