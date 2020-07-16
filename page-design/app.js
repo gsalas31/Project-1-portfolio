@@ -21,6 +21,6 @@ const app=(data)=>{
     }
     data.forEach(project=>{
         const $projectDiv = createProjectElement(project)
-        $('body').append($projectDiv)
+        $().append($projectDiv)
     })
 }

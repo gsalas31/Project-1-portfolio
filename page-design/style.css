@@ -41,8 +41,8 @@ nav{
     margin-right: 40px;
 }
 img{
-    width:360px;
-    height: 190px;
+    width: 700px;
+    height: 400px;
     align-self: center;
 
 }
@@ -99,7 +99,7 @@ p{
 #tres{
     display:flex;
     flex-direction: column;
-    height: 880px;
+    height: 650px;
     border-top-left-radius: 60px ;
     background-color: #ea7186;
     margin-top: 100px;
@@ -116,10 +116,6 @@ p{
     100%{background-color: lightseagreen;}
 }
 
-.proyectos{
-    display:flex;
-    
-}
 h2{
     margin-top: 40px;
     color:rgb(235,232,231);
@@ -128,10 +124,10 @@ h2{
 .links{
     display: flex;
     margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    width:560px;
-    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    width:700px;
+    height: 400px;
     border: solid 5px rgb(235,232,231) ;
     border-radius: 8px;   
 }
