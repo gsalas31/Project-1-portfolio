@@ -1,2 +1,155 @@
-@media (max-width:420px){
+@media (max-width:860px){
+
+    .menu{
+        margin-top: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+    
+    .toggler{
+        position: absolute;
+        top: 0.5rem;
+        left: 0.5rem;
+        width: 60px;
+        height: 60px;
+        z-index: 3;
+        opacity: 0;
+        cursor: pointer;
+    }
+    
+    .ham{
+        position: absolute;
+        top: 0.5rem;
+        left: 0.5rem;
+        width: 60px;
+        height: 60px;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: #111;
+    }
+    
+    .ham>div{
+        position: absolute;
+        width: 60%;
+        height: 3px;
+        border-radius: 1.5px;
+        background-color: #fff44f;
+        transition: .4s;
+    }
+    
+    .ham>div:before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        border-radius: 1.5px;
+        background-color: #fff44f;
+        top: -10px;
+        left: 0;
+        transition: .4s;
+    }
+    
+    .ham>div:after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        border-radius: 1.5px;
+        background-color: #fff44f;
+        top: 10px;
+        left: 0;
+        transition: .4s;
+    }
+    
+    .toggler:checked + .ham>div{
+        transform: rotate(135deg);
+    }
+    
+    .toggler:checked:hover + .ham>div{
+        transform: rotate(225deg);
+    }
+    
+    .toggler:checked + .ham>div:before, .toggler:checked + .ham>div:after{
+        top: 0;
+        transform: rotate(90deg);
+    }
+    
+    .listanav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        transition: .6s;
+    }
+    
+    .listanav > div{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-150%) translateY(-50%);
+        width: 1600px;
+        height: 1600px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.9);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition: .6s;
+    }
+    
+    .listanav > div > div{
+        max-width: 90vw;
+        max-height: 100vh;
+        opacity: 0;
+        transition: .6s;
+    }
+    
+    .listanav > div > div > ul > li{
+        list-style: none;
+    }
+    
+    .listanav > div > div > ul > li > a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 550;
+        text-transform: uppercase;
+        margin: .5rem;
+        transition: .3s;
+        font-size: 1.2rem;
+        display: inline-block;
+    }
+    
+    .listanav > div > div > ul > li > a:hover{
+        color: #fff44f;
+    }
+    
+    .toggler:checked ~ .listanav{
+        visibility: visible;
+    }
+    
+    .toggler:checked ~ .listanav> div{
+        transform: translateX(-50%) translateY(-50%);
+    }
+    
+    .toggler:checked ~ .listanav > div > div{
+        opacity: 1;
+    }
+
+
+
+
+
+
+
+
+
+
 }
