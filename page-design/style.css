@@ -12,27 +12,17 @@ a:link, a:hover {
     background-repeat: no-repeat;
     align-self: center;
     padding-bottom:20px;
-    margin-top:10px;
+    margin-top:0px;
 }
-.menu{
-    display:flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    color: black;
-    font-weight: bolder;
-}
+
 nav{
     display:flex;
     justify-content: space-between;  
+    margin-left: 0;
+    height: 160px;
 }
-.lista{
-    padding-right: 30px;
-    font-size: 16px;
-    color: #e2b241;
-}
-#mover{
-    margin-right: 10px;
-}
+
+
 #imgen{
     background-image: url(https://res.cloudinary.com/g31ssa/image/upload/c_scale,h_200,w_200/v1594680808/woman-profile-icon-64_xwkmgc.png);
     background-repeat: no-repeat;
@@ -129,7 +119,8 @@ h2{
     width:700px;
     height: 400px;
     border: solid 5px rgb(235,232,231) ;
-    border-radius: 8px;   
+    border-radius: 8px;  
+    overflow-x: scroll; 
 }
 /* Editing contact form holder */
 .back{

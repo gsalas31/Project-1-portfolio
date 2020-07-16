@@ -13,14 +13,11 @@ fetch(url)
     })
 const app=(data)=>{
     //console.log('app is running')
-    ///console.log(data)
-
-    const createProjectElement=(project)=>{
-       ($('<img>').attr('src', project.image)).appendTo('#linkuno')
-        return $div
-    }
+    console.log(data)
     data.forEach(project=>{
-        const $projectDiv = createProjectElement(project)
-        $().append($projectDiv)
+
+        ($('<img>').attr('src', project.image)).appendTo('#linkuno')
+        //const $projectDiv = createProjectElement(project)
+        //$().append($projectDiv)
     })
 }
