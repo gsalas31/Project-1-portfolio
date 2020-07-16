@@ -3,24 +3,27 @@
         position: fixed;
         top: 0;
         right: 0;
-        z-index: 2;
+        z-index: 1;
     }
+
     .toggler{
         position: absolute;
+        top:30px;
+        right: 10px;
         width: 60px;
         height: 60px;
-        z-index: 3;
+        z-index: 2;
         opacity: 0;
         cursor: pointer;
     }
     
     .ham{
         position: absolute;
-        top: 10px;
-        right: 60px;
+        top: 30px;
+        right: 10px;
         width: 60px;
         height: 60px;
-        z-index: 2;
+        z-index: 1;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -59,21 +62,51 @@
         left: 0;
         transition: .4s;
     }
-    .toggler:checked + .ham>div{
+    .menu.toggler:checked + .ham>div{
         transform: rotate(135deg);
     }
-    
-    .toggler:checked:hover + .ham>div{
-        transform: rotate(225deg);
-    }
-    
-    .toggler:checked + .ham>div:before, .toggler:checked + .ham>div:after{
-        top: 0;
+    .menu.toggler:checked + .ham > div:before,.menu.toggler:checked + .ham > div:after{
+        top:0;
         transform: rotate(90deg);
     }
-    
+    .menu .toggler:checked:hover + .ham > div {
+        transform: rotate(225deg);
+      }
 
 
-
-
+      .menu .toggler:checked ~ .listanav {
+        visibility: visible;
+      }
+      
+      .menu .toggler:checked ~ .listanav > div {
+        transform: scale(1);
+        transition-duration: var(--menu-speed);
+      }
+      
+      .menu .toggler:checked ~ .listanav > div > div {
+        opacity: 1;
+        transition:  opacity 0.4s ease 0.4s;
+      }
+      .menuar{
+          display:flex;
+          flex-direction: column;
+          margin-right: 80px;
+      }
+      li{
+          margin-bottom: 10px;
+      }
+      .listanav{
+          justify-content: flex-end;
+      }
+      .menu .listanav {
+        position: fixed;
+        margin-top: 30px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        overflow: hidden;
+        display: flex;
+  
+      }
 }

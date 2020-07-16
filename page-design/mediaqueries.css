@@ -31,7 +31,9 @@
    textarea{
        margin-left: 30px;
    }
-}
+   
+   }
+
 
 
 @media (max-width:800px){
@@ -46,8 +48,13 @@
         font-size: 20px;
         margin-bottom: 0px;
         margin-top: 20px;
-
     }
+    .skillss{
+        margin-top: 8px;
+        font-size: 16px;
+    }
+ 
+
     #tres{
         border-top-left-radius: 60px;
     }
