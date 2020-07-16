@@ -40,6 +40,12 @@ nav{
     height: 200px;
     margin-right: 40px;
 }
+img{
+    width:360px;
+    height: 190px;
+    align-self: center;
+
+}
 #uno{
     display:flex;
     align-items: center;
@@ -93,7 +99,7 @@ p{
 #tres{
     display:flex;
     flex-direction: column;
-    height: 480px;
+    height: 880px;
     border-top-left-radius: 60px ;
     background-color: #ea7186;
     margin-top: 100px;
@@ -124,8 +130,8 @@ h2{
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    width:360px;
-    height: 260px;
+    width:560px;
+    height: 340px;
     border: solid 5px rgb(235,232,231) ;
     border-radius: 8px;   
 }
@@ -238,9 +244,17 @@ input{
 }
 #git{
     margin-right: 30px;
+    width: 32px;
+    height: 32px;
 }
 #linke{
     margin-right: 30px;
+    width: 32px;
+    height: 32px;
+}
+#word{
+    width: 32px;
+    height: 32px;
 }
 footer{
     display: flex;
