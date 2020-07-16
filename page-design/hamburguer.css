@@ -29,7 +29,7 @@
         align-items: center;
         justify-content: center;
         border-radius: 50%;
-        background: #bd9dea;
+        background: #7477b9 ;
     }
     .ham>div{
         position: absolute;
@@ -110,4 +110,27 @@
         display: flex;
   
       }
+
+      .listanav > div{
+        margin:0;
+        position: fixed;
+        top:-50px;
+        right: -50px;
+        transform: translateX(150%) translateY(50%);
+        width: 220px;
+        height: 220px;
+        border-radius: 20%;
+        background-color: rgba(189,159,232, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: bottom;
+        transition: .6s;
+        margin-top: 20px;
+    }
+    a{
+        margin-top: 60px;
+        font-size: 10px;
+
+    }
 }
