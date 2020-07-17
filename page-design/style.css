@@ -2,8 +2,11 @@ body{
     margin:0;
     background-color:rgb(235,232,231);
 }
-a:link, a:hover {
+a:link {
     text-decoration:none;
+}
+a{
+    color:rgb(235,232,231);
 }
 .imga{
     background-image: url(https://res.cloudinary.com/g31ssa/image/upload/c_scale,h_240,w_180/v1594675190/LOGOG_r5tr3u.png);
@@ -46,7 +49,7 @@ img{
     height: 280px;
     border-bottom-right-radius: 60px;
     animation-name: amarillo;
-    animation-duration: 20s;
+    animation-duration: 30s;
     animation-delay: 3s;
 }
 /*Background Animation*/
@@ -54,7 +57,8 @@ img{
     0%{ background-color: #ffc94b  ;}
     25%{ background-color: #ea7186 ;}
     50%{ background-color: #7477b9 ;}
-    100%{background-color: lightseagreen;}
+    75%{background-color: lightseagreen;}
+    100%{background-color: #ffc94b ;}
 }
 
 .aboutme{
@@ -92,7 +96,7 @@ li{
     font-size: 20px;
 }
 .skillss{
-    margin-top: 40px;
+    margin-top: 20px;
 }
 p{
     margin-top: 180px;
@@ -108,7 +112,7 @@ p{
     margin-top: 100px;
     text-align: center;
     animation-name: backkkk;
-    animation-duration: 20s;
+    animation-duration: 30s;
     animation-delay: 3s;
 }
 /*Background Animation*/
@@ -116,7 +120,9 @@ p{
     0%{ background-color: #ea7186 ;}
     25%{ background-color: #ffc94b ;}
     50%{ background-color: #7477b9 ;}
-    100%{background-color: lightseagreen;}
+    75%{background-color: lightseagreen;}
+    100%{ background-color: #ea7186 ;}
+
 }
 
 h2{

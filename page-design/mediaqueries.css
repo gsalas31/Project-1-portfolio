@@ -33,9 +33,6 @@
    }
    
    }
-
-
-
 @media (max-width:800px){
     #uno{
         border-bottom-right-radius: 60px;
@@ -54,7 +51,6 @@
         font-size: 16px;
     }
  
-
     #tres{
         border-top-left-radius: 60px;
     }
@@ -130,7 +126,12 @@
         margin-left: auto;
         margin-right: auto;
     }
-  
+    .animationn{
+        background:transparent;
+        padding:0px;
+        width: 0px;
+        border-bottom-left-radius: 0px;
+    }
 }
 
 @media (max-width:420px){
@@ -175,6 +176,7 @@
         height: 230px;
         margin-left: auto;
         margin-right: auto;
+    }
 }
 
 @media (max-width:380px){
