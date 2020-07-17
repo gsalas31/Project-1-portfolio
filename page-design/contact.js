@@ -9,9 +9,9 @@ const submit=()=>{
     const emailTag="entry.1045781291";
     const messageTag="entry.839337160";
 
-    const name = $('[name="naame"]');
-    const email = $('[email="emaail"]');
-    const message = $('[textarea="texmessage"]');
+    const name = $('#naame');
+    const email = $('#emaail');
+    const message = $('#textmessage');
     console.log(name, email, message)
 
     fetch(formUrl, {
@@ -32,4 +32,4 @@ const submit=()=>{
         })
     .catch(err => console.log(err))
     }
-    $('#send').on('click', send)
+    $('#send').on('click', submit)
