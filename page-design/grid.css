@@ -22,6 +22,7 @@
 }
 .pintado5{
     background-color:lightseagreen;
+    border-top-left-radius: 8px;
 }
 .pintado6{
     background-color:#ffc94b;
@@ -31,9 +32,11 @@
 }
 .pintado8{
     background-color:#ea7186;
+    
 }
 .pintado9{
     background-color:lightseagreen;
+    border-bottom-left-radius: 8px;
 }
 .pintado10{
     background-color:#ffc94b;
@@ -46,4 +49,7 @@
 }
 p{
     z-index: -1;
+}
+@media (max-width:803px){
+
 }

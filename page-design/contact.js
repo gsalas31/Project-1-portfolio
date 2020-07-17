@@ -20,7 +20,7 @@ const submit=()=>{
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
         },
-        body: `${nameTag}=${naame.val()}&${emailTag}=${emaail.val()}&${messageTag}=${textmessage.val()}`
+        body: `${nameTag}=${name.val()}&${emailTag}=${email.val()}&${messageTag}=${message.val()}`
     })
 
     .then(res => {
