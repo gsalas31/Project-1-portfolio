@@ -107,9 +107,10 @@ li{
 }
 p{
     margin-top: 180px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 300px;
     font-family: 'Averia Serif Libre', cursive;
+     
 }
 #tres{
     display:flex;
@@ -117,7 +118,7 @@ p{
     height: 650px;
     border-top-left-radius: 60px ;
     background-color: #ea7186;
-    margin-top: 100px;
+    margin-top: 30px;
     text-align: center;
     animation-name: backkkk;
     animation-duration: 30s;

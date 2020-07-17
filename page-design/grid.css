@@ -1,13 +1,15 @@
 .divcont{
-    width: 400px;
-    height: 600px;
+    position: absolute;
+    width: 310px;
+    height: 400px;
     display: grid;
+    grid-template-rows: repeat(4, auto);
     grid-template-columns: repeat(5, auto);
-    grid-template-columns: repeat(5, auto);
-    z-index: 2;
+    z-index: 0;
+    padding-bottom: 10px;
 }
 .pintado1{
-    background-color:lightseagreen;
+    background-color:#bd9dea;
 }
 .pintado2{
     background-color:#ffc94b;
@@ -35,4 +37,13 @@
 }
 .pintado10{
     background-color:#ffc94b;
+}
+#dos{
+    display:flex;
+    flex-direction: row-reverse;
+    height: 400px;
+    margin-top: 20px ;
+}
+p{
+    z-index: -1;
 }
