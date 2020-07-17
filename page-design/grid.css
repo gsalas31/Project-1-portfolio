@@ -1,0 +1,38 @@
+.divcont{
+    width: 400px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(5, auto);
+    z-index: 2;
+}
+.pintado1{
+    background-color:lightseagreen;
+}
+.pintado2{
+    background-color:#ffc94b;
+}
+.pintado3{
+    background-color:#ea7186 ;
+}
+.pintado4{
+    background-color:#7477b9;
+}
+.pintado5{
+    background-color:lightseagreen;
+}
+.pintado6{
+    background-color:#ffc94b;
+}
+.pintado7{
+    background-color:#7477b9 ;
+}
+.pintado8{
+    background-color:#ea7186;
+}
+.pintado9{
+    background-color:lightseagreen;
+}
+.pintado10{
+    background-color:#ffc94b;
+}
