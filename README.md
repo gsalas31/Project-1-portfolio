@@ -2,10 +2,6 @@
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Complete
@@ -23,9 +19,7 @@ My project will consist  on a main landing page with different sections includin
 ## Google Sheet
 https://docs.google.com/spreadsheets/d/1YR5UozWNEPpyCGal0xQWTiUj5nzXS2b2emUhuBE62fs/edit?usp=sharing
 
-## Wireframes
-
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
+## Wireframes  
 
 - [Mobile] https://res.cloudinary.com/g31ssa/image/upload/v1595045981/pic2_gug3ew.jpg
 It will be divided in 3 to 4 sections. First part will navigation bar and logo, followed by image and About me title. Second section will consist on images of projects. Last but not least form. Everything will be displayed as a column.
@@ -56,10 +50,6 @@ Post MVP:
 
 
 ## Functional Components
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into functional components, and by that we mean functions.  Try and capture what logic would need to be defined if the game was broken down into the following categories.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
