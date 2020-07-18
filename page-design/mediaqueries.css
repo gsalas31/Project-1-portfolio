@@ -44,6 +44,12 @@
         margin-left: auto;
         margin-right: auto;
     }
+    a{
+        width: 800px;
+        height: 380px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (max-width:800px){
@@ -136,12 +142,19 @@
         margin-left: auto;
         margin-right: auto;
     }
+    a{
+        width: 600px;
+        height: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .animationn{
         background:transparent;
         padding:0px;
         width: 0px;
         border-bottom-left-radius: 0px;
     }
+
 }
 @media (max-width:710px){
     img{
@@ -162,6 +175,12 @@
         height: 230px;  
     }
     #linkuno{
+        width: 350px;
+        height: 230px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    a{
         width: 350px;
         height: 230px;
         margin-left: auto;
@@ -321,6 +340,12 @@
         height: 180px;  
     }
     #linkuno{
+        width: 300px;
+        height: 180px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    a{
         width: 300px;
         height: 180px;
         margin-left: auto;
