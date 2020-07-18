@@ -7,8 +7,7 @@ fetch(url)
             return{
                 //where do you get this from?
                 image: entry.gsx$image.$t,
-                url: entry.gsx$url.$t,
-                title: entry.gsx$title.$t,
+                url: entry.gsx$url.$t
             }
         })
         app(projects)
@@ -24,6 +23,6 @@ const app=(data)=>{
         const $a=$('<a>').attr('href', project.url)
         $a.append($('<img>').attr('src', project.image))
         $a.appendTo('#linkuno')
-        
+
     })
 }
