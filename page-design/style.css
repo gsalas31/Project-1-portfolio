@@ -10,13 +10,14 @@ a{
     color:rgb(235,232,231);
 }
 .imga{
-    background-image: url(https://res.cloudinary.com/g31ssa/image/upload/c_scale,h_240,w_180/v1594675190/LOGOG_r5tr3u.png);
+    background-image: url(https://res.cloudinary.com/g31ssa/image/upload/c_scale,h_220,w_160/v1594675190/LOGOG_r5tr3u.png);
     width:290px;
     height: 170px;
     background-repeat: no-repeat;
     align-self: center;
     padding-bottom:20px;
-    margin-top:0px;
+    margin-top:20px;
+    margin-left: 20px;
 }
 nav{
     display:flex;
