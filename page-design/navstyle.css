@@ -1,13 +1,13 @@
 @media (min-width:800px){
     .menuar{
-    background: rgba( 232,114,135,.5);
+    background: rgba(233, 166, 23, 0.5);
     box-shadow: 0 2px 3px 0 rgba(0,0,0,.3);
     padding:6px;
     width: 600px;
     border-bottom-left-radius: 8px;
     }
     .menuar :hover {
-        background-color:#ea7186 ;
+        background-color:#ffc94b ;
         padding: 6px;
         border-radius: 6px;
     }

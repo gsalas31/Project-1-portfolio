@@ -33,10 +33,6 @@
    }
    }
 @media (max-width:800px){
-    #uno{
-        border-bottom-right-radius: 60px;
-        width:100%;   
-    }
     .aboutme{
         width:70%;
     }
@@ -132,10 +128,9 @@
         border-bottom-left-radius: 0px;
     }
 }
-
 @media (max-width:420px){
     h1{
-        margin-top: 20px;
+        margin-top: 40px;
     }
     li{
         margin-right: 20px;

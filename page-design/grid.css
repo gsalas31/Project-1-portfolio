@@ -1,7 +1,7 @@
 .divcont{
     position: absolute;
     width: 310px;
-    height: 400px;
+    height: 250px;
     display: grid;
     grid-template-rows: repeat(4, auto);
     grid-template-columns: repeat(5, auto);
@@ -44,7 +44,7 @@
 #dos{
     display:flex;
     flex-direction: row-reverse;
-    height: 400px;
+    height: 250px;
     margin-top: 20px ;
 }
 p{
@@ -52,16 +52,15 @@ p{
 }
 @media (max-width:803px){
     .divcont{
-        width:100%
+        width:100%;
+        opacity:.4;
     }
     p{
         position: relative;
         z-index: 10;
-        background-color:rgba(235,232,231,.7 );
         height: 60%;
         width:80%;
         padding-top: 20px;
-        padding-left: 20px;
-        
+        padding-left: 20px;  
     }
 }
