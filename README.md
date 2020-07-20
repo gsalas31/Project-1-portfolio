@@ -1,5 +1,7 @@
 # Project Overview
 
+Project link: https://eloquent-davinci-90c233.netlify.app/page-design/
+
 ## Project Schedule
 
 |  Day | Deliverable | Status
@@ -8,7 +10,7 @@
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Complete 
-|Day 5| Final Touches | Incomplete
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
 
@@ -70,9 +72,34 @@ Post MVP:
 | Drop-down Menu | L | 4hr | N/A | -hr|
 | Others | l | 6hr | -hr | -hr|
 | Total | H | 20hrs| -hrs | -hrs |
+
+## Links used:
+
+http://getdrawings.com/woman-profile-icon
+https://mattfarley.ca/
+
+## Cloudinary:
+https://cloudinary.com/console/c-3c84f6683c86619a1ecbe585e8dcd1/media_library/folders/home/asset/306607da45bbe868606de7604a21120f/transform
+
+## Google icons:
+https://material.io/resources/icons/?icon=phone&style=baseline
+
+## Effects for web / projects
+
+https://www.youtube.com/watch?v=JJkuGvfFKOw
+https://www.youtube.com/watch?v=JJkuGvfFKOw
+
+## Nav animation
+https://codepen.io/EvyatarDa/pen/waKXMd?editors=1000
+
+## Hamburger
+https://youtu.be/DZg6UfS5zYg
+
  
 ## Code Snippet
 
 
 
 ## Issues and Resolutions
+Jquery :I encoountered some problem trying to merge links with projects and the best way was to proceed step by step instead of tryin to solve everything within a single line. 
+CSS: An issue with CSS will be that is very time consuming when adding mediaqueries and try making your website responsive to every single device. Resolution: being patient and test your resutls or work with dev tools. 
