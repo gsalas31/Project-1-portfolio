@@ -17,7 +17,7 @@
         cursor: pointer;
         visibility: visible;
     }
-    
+ /*circle*/
     .ham{
         position: absolute;
         top: 30px;
@@ -31,6 +31,7 @@
         border-radius: 50%;
         background: #7477b9 ;
     }
+ /*middle line hamburguer*/
     .ham>div{
         position: absolute;
         width: 60%;
@@ -39,7 +40,7 @@
         background-color: #ffc94b ;
         transition: .4s;
     }
-    
+/*top line hamburguer*/
     .ham>div:before{
         content: '';
         position: absolute;
@@ -51,6 +52,7 @@
         left: 0;
         transition: .4s;
     }
+/*third line */
     
     .ham>div:after{
         content: '';
@@ -63,22 +65,15 @@
         left: 0;
         transition: .4s;
     }
-    .menu.toggler:checked + .ham>div{
-        transform: rotate(135deg);
-    }
-    .menu.toggler:checked + .ham > div:before,.menu.toggler:checked + .ham > div:after{
-        top:0;
-        transform: rotate(90deg);
-    }
+/*rotating menu "lines"*/
     .menu .toggler:checked:hover + .ham > div {
         transform: rotate(225deg);
       }
-
-
+/*making list visible*/
       .menu .toggler:checked ~ .listanav {
         visibility: visible;
       }
-      
+/*how big menu will be displayed */
       .menu .toggler:checked ~ .listanav > div {
         transform: scale(1);
         transition-duration: var(--menu-speed);
@@ -91,7 +86,8 @@
       .menuar{
           display:flex;
           flex-direction: column;
-          margin-right: 80px;
+          margin-right: 160px;
+          width:220px; 
       }
       li{
           margin-bottom: 10px;
@@ -108,7 +104,6 @@
         visibility: hidden;
         overflow: hidden;
         display: flex;
-  
       }
 
       .listanav > div{

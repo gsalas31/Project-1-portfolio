@@ -110,7 +110,7 @@ li{
     margin-right: 30px;
     font-family: 'Averia Serif Libre', cursive;
 }
-/* Another div to allocate variety of skills named as "skillslist"*/
+/* Another div that allocates variety of skills named as "skillslist"*/
 .skilldivcontainer{
     margin-top: 120px;
     margin-left: 30px;
@@ -155,7 +155,7 @@ li{
 #sk10{
     color:#ea7186 ;
 }
-/*This is scetion number 3 */
+/*This is scetion number 3 where about me satement is placed */
 p{
     margin-top: 40px;
     margin-left: 100px;
@@ -192,6 +192,7 @@ h2{
     font-size: 35px;
 }
 /* This section refers to the section containing images extracted with json/ Styling the actual div */
+
 .links{
     display: flex;
     margin-left: auto;
@@ -210,7 +211,7 @@ img{
 }
 
 /* Editing contact form holder */
-/* back is the bacl of the section where the contact form is allocated */
+/* "back" is back div of contact form */
 .back{
     background-color:rgb(235,232,231) ;
     height: 300px;
@@ -223,7 +224,7 @@ h3{
     font-family: 'Righteous', cursive;
     font-size: 35px;
 }
-/* back second is the bottom back of the contact form section*/
+/* "back second" is the lower div behind contact form and under "back" div */
 .backsecond{
     display:flex;
     height: 160px;
