@@ -97,7 +97,9 @@ https://youtu.be/DZg6UfS5zYg
 
  
 ## Code Snippet
-
+ const $a=$('<a>').attr('href', project.url)
+        $a.append($('<img>').attr('src', project.image))
+        $a.appendTo('#linkuno')
 
 
 ## Issues and Resolutions
